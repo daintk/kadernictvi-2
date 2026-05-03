@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exclusive — Prémiové kadeřnictví Kladno</title>
+<meta name="description" content="Kadeřnictví Exclusive Kladno — prémiové kadeřnické služby, barvení, prosvětlení, vlasová kryoterapie a luxusní péče o vlasy. Suchardova 511, OC Central Kladno.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">E</span>
+      <div>
+        <span class="logo-text">Exclusive</span>
+        <span class="logo-sub">Kadeřnictví Kladno</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">O nás</a></li>
+      <li><a href="#services">Služby</a></li>
+      <li><a href="cenik.html">Ceník</a></li>
+      <li><a href="#team">Tým</a></li>
+      <li><a href="#testimonials">Reference</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    <a href="rezervace.html" class="nav-cta">Rezervovat</a>
+    <button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="line"></span>
+          <span>Prémiové kadeřnictví • OC Central Kladno</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-word">Krása</span>
+          <span class="hero-word hero-italic">se rodí</span>
+          <span class="hero-word">v detailu</span>
+        </h1>
+        <p class="hero-sub">Více než 15 let tvoříme styl, který vám sedne. Profesionální péče s prémiovými produkty Davines, vlasová kryoterapie a tým kadeřnic, kterým můžete věřit.</p>
+        <div class="hero-cta">
+          <a href="rezervace.html" class="btn btn-gold">Rezervovat termín <span class="arrow">→</span></a>
+          <a href="cenik.html" class="btn btn-outline">Kompletní ceník</a>
+        </div>
+        <div class="hero-meta">
+          <div class="hero-meta-rating">
+            <span class="hero-meta-num">4.6</span>
+            <div>
+              <div class="hero-meta-stars">★★★★★</div>
+              <div class="hero-meta-text">177 recenzí Google</div>
+            </div>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-fact">
+            <strong>15+ let</strong>
+            <span>zkušeností</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div class="hero-meta-fact">
+            <strong>5000+</strong>
+            <span>klientek</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-photo">
+          <img src="images/hero-cervene-vlasy.png" alt="Účes z kadeřnictví Exclusive">
+          <div class="hero-photo-frame"></div>
+          <div class="hero-photo-tag">Otevřeno do 19:00</div>
+        </div>
+        <div class="hero-badge hero-badge-1">
+          <div class="hero-badge-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2 L 14.39 7.42 L 20 8.27 L 15.78 12.14 L 17.18 17.95 L 12 14.77 L 6.82 17.95 L 8.22 12.14 L 4 8.27 L 9.61 7.42 Z" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="hero-badge-text">
+            <strong>Davines & Dot Solary</strong>
+            <span>Prémiové produkty</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- BRAND BAR -->
+<section class="brands">
+  <div class="brands-track">
+    <span>Davines</span><span class="dot"></span>
+    <span>Dot Solary</span><span class="dot"></span>
+    <span>Hairtoxx Cryo</span><span class="dot"></span>
+    <span>Olaplex</span><span class="dot"></span>
+    <span>Profibeauty</span><span class="dot"></span>
+    <span>Davines</span><span class="dot"></span>
+    <span>Dot Solary</span><span class="dot"></span>
+    <span>Hairtoxx Cryo</span><span class="dot"></span>
+    <span>Olaplex</span><span class="dot"></span>
+    <span>Profibeauty</span><span class="dot"></span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="eyebrow">— O nás</span>
+        <h2 class="section-title" style="text-align:left;">Salon, který tvoří <em>příběhy</em> vlasů</h2>
+        <p class="lead">Kadeřnictví Exclusive je více než místo, kam si chodíte pro střih. Je to prostor, kde se rodí sebevědomí.</p>
+        <p>V samém srdci Kladna, na Suchardově ulici v OC Central, vytváříme již řadu let účesy, které nejsou jen módní — jsou osobní. Každá klientka odchází nejen s krásnými vlasy, ale s pocitem, že o ni bylo postaráno.</p>
+        <p>Pracujeme s prémiovými značkami Davines, Dot Solary a luxusními procedurami jako vlasová kryoterapie Hairtoxx s kyselinou hyaluronovou. Naše kadeřnice procházejí pravidelnými školeními a sledují nejnovější trendy.</p>
+        <a href="#team" class="link-arrow">Poznat náš tým <span class="arrow">→</span></a>
+      </div>
+      <div class="about-visual">
+        <div class="visual-photo visual-1" style="background-image:url('images/salon-vstup.png');"></div>
+        <div class="visual-quote">
+          <span class="quote-mark">"</span>
+          <p>Naším cílem není jen vás ostříhat. Je to porozumět tomu, kdo jste.</p>
+          <span class="quote-author">— Tým Exclusive</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="values section-cream">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">— Proč právě my</span>
+      <h2 class="section-title">Čtyři důvody, proč si vás <em>získáme</em></h2>
+    </div>
+    <div class="values-grid">
+      <div class="value">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2 L14.39 7.42 L20 8.27 L15.78 12.14 L17.18 17.95 L12 14.77 L6.82 17.95 L8.22 12.14 L4 8.27 L9.61 7.42 Z" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="value-num">01</div>
+        <h3>Profesionalita</h3>
+        <p>Tým kadeřnic s mnohaletými zkušenostmi a pravidelnými školeními u předních akademií.</p>
+      </div>
+      <div class="value">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2 L 7 6 L 7 12 C 7 16 9 19 12 21 C 15 19 17 16 17 12 L 17 6 Z"/>
+            <path d="M9 11 L 11 13 L 15 9"/>
+          </svg>
+        </div>
+        <div class="value-num">02</div>
+        <h3>Prémiové produkty</h3>
+        <p>Pracujeme s nejlepšími značkami — Davines, Dot Solary, Hairtoxx Cryo, Olaplex.</p>
+      </div>
+      <div class="value">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M20.84 4.61 A 5.5 5.5 0 0 0 13 4.61 L 12 5.61 L 11 4.61 A 5.5 5.5 0 1 0 3.16 12.39 L 12 21.23 L 20.84 12.39 A 5.5 5.5 0 0 0 20.84 4.61 Z"/>
+          </svg>
+        </div>
+        <div class="value-num">03</div>
+        <h3>Individuální přístup</h3>
+        <p>Každá klientka je jedinečná. Konzultace, analýza vlasů a doporučení šité na míru.</p>
+      </div>
+      <div class="value">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 9 L 12 2 L 21 9 V 20 A 2 2 0 0 1 19 22 H 5 A 2 2 0 0 1 3 20 Z"/>
+            <path d="M9 22 V 12 H 15 V 22"/>
+          </svg>
+        </div>
+        <div class="value-num">04</div>
+        <h3>Stylové prostředí</h3>
+        <p>Útulný interiér v OC Central, káva, šálek čaje a pocit, že jste doma.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">— Naše služby</span>
+      <h2 class="section-title">Nabízíme <em>vše</em>, co vaše vlasy potřebují</h2>
+    </div>
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="6" cy="6" r="3"/>
+            <circle cx="6" cy="18" r="3"/>
+            <path d="M20 4 L 8.12 15.88 M 14.47 14.48 L 20 20 M 8.12 8.12 L 12 12"/>
+          </svg>
+        </div>
+        <h3>Dámský střih & foukaná</h3>
+        <p>Klasické i módní střihy přizpůsobené tvaru obličeje. Včetně mytí, foukané a stylingu.</p>
+        <div class="service-price">od 560 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 9 C 6 5 9 3 12 3 C 15 3 18 5 18 9 V 14 C 18 18 15 21 12 21 C 9 21 6 18 6 14 Z"/>
+            <path d="M9 11 L 15 11"/>
+          </svg>
+        </div>
+        <h3>Pánský střih</h3>
+        <p>Moderní pánské i chlapecké střihy, údržbové styly. Včetně úpravy vousů.</p>
+        <div class="service-price">od 320 Kč</div>
+      </article>
+      <article class="service-card service-featured">
+        <div class="service-badge">NEJOBLÍBENĚJŠÍ</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="13.5" cy="6.5" r="2.5"/>
+            <circle cx="17.5" cy="10.5" r="2.5"/>
+            <circle cx="8.5" cy="7.5" r="2.5"/>
+            <circle cx="6.5" cy="12.5" r="2.5"/>
+            <path d="M12 22 A 8 8 0 0 1 4 14 A 4 4 0 0 1 12 14 Z"/>
+          </svg>
+        </div>
+        <h3>Barvení & tónování</h3>
+        <p>Udržení barvy, celkové barvení, melíry. Prémiová barva s regeneračním rituálem.</p>
+        <div class="service-price">od 1 550 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2 L 14.39 7.42 L 20 8.27 L 15.78 12.14 L 17.18 17.95 L 12 14.77 L 6.82 17.95 L 8.22 12.14 L 4 8.27 L 9.61 7.42 Z" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>Prosvětlení Exclusive</h3>
+        <p>Prosvětlení s tónováním, střihem a finální péčí. Kryoterapie nebo laminace.</p>
+        <div class="service-price">od 3 800 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2 L 6 8 C 4 10 4 14 6 16 L 12 22 L 18 16 C 20 14 20 10 18 8 Z"/>
+            <path d="M9 11 L 12 14 L 15 11"/>
+          </svg>
+        </div>
+        <h3>Vlasová kryoterapie</h3>
+        <p>Luxusní kúra s kyselinou hyaluronovou. Regenerace pomocí mrazu — pružnost, síla, lesk.</p>
+        <div class="service-price">od 900 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <ellipse cx="12" cy="12" rx="10" ry="6"/>
+            <ellipse cx="12" cy="12" rx="6" ry="10"/>
+            <circle cx="12" cy="12" r="2" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Laminace Dot Solary</h3>
+        <p>Hedvábný lesk a ochrana před sluncem, slanou i chlorovanou vodou.</p>
+        <div class="service-price">od 2 200 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2 V 22 M 8 6 L 12 2 L 16 6 M 5 14 L 12 14 L 19 14"/>
+            <circle cx="12" cy="14" r="1.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Bylinná infuze Davines</h3>
+        <p>Personalizovaná infuze s parní saunou pro vlasy bez lesku, suché či lámavé.</p>
+        <div class="service-price">od 590 Kč</div>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M6 4 C 6 4 8 8 12 8 C 16 8 18 4 18 4 M 6 4 C 6 4 6 12 8 16 C 9 19 11 22 12 22 C 13 22 15 19 16 16 C 18 12 18 4 18 4"/>
+          </svg>
+        </div>
+        <h3>Prodlužování vlasů</h3>
+        <p>Prémiové vlasy Profibeauty. Vydrží až 8 cyklů aplikace, tedy až dva roky.</p>
+        <div class="service-price">Konzultace zdarma</div>
+      </article>
+    </div>
+    <div class="services-cta">
+      <p>Kompletní ceník všech služeb najdete na samostatné stránce</p>
+      <a href="cenik.html" class="btn btn-outline">Zobrazit kompletní ceník <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY — real photos -->
+<section class="gallery section-cream">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">— Galerie</span>
+      <h2 class="section-title">Naše <em>práce</em> mluví za nás</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gal gal-1" style="background-image:url('images/kryoterapie.png');">
+        <span class="gal-tag">Vlasová kryoterapie</span>
+      </div>
+      <div class="gal gal-2" style="background-image:url('images/prosvetleni-pred-po.png');">
+        <span class="gal-tag">Prosvětlení & regenerační péče</span>
+      </div>
+      <div class="gal gal-3" style="background-image:url('images/orange-bob.png');">
+        <span class="gal-tag">Měděný bob</span>
+      </div>
+      <div class="gal gal-4" style="background-image:url('images/prirozene-sediny.png');">
+        <span class="gal-tag">Přirozené šediny</span>
+      </div>
+    </div>
+    <div class="gallery-cta">
+      <a href="https://www.instagram.com/kadernictviexclusive" target="_blank" class="btn btn-outline">Více na Instagramu <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER with photo -->
+<section class="cta-banner">
+  <div class="cta-banner-bg" style="background-image:url('images/prosvetleni-pred-po.png');"></div>
+  <div class="container">
+    <div class="cta-wrap">
+      <span class="eyebrow">— Rezervace</span>
+      <h2 class="section-title">Připravte si <em>chvíli</em> jen pro sebe</h2>
+      <p>Online rezervace 24/7. Vyberte si službu, kadeřnici, datum i čas.</p>
+      <a href="rezervace.html" class="btn btn-gold">Rezervovat termín <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">— Reference</span>
+      <h2 class="section-title">Co o nás <em>říkají</em> klientky</h2>
+    </div>
+    <div class="testimonials-grid">
+      <article class="testimonial">
+        <span class="testimonial-quote">"</span>
+        <div class="stars">★★★★★</div>
+        <p>Jsem s úrovní provedené práce moc a moc spokojená. Kadeřnice jsou velmi šikovné a ochotné. Byla jsem u Leničky, vybrala mi skvělou barvu a střih.</p>
+        <div class="testimonial-author">
+          <span class="author-avatar">JH</span>
+          <div>
+            <strong>Jana Hrabánková</strong>
+            <span>Google recenze</span>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial">
+        <span class="testimonial-quote">"</span>
+        <div class="stars">★★★★★</div>
+        <p>Konečně jsem našla kadeřnictví, kde se cítím jako královna. Profesionální přístup, krásné prostředí. Doporučuji všem!</p>
+        <div class="testimonial-author">
+          <span class="author-avatar">VS</span>
+          <div>
+            <strong>Veronika S.</strong>
+            <span>Google recenze</span>
+          </div>
+        </div>
+      </article>
+      <article class="testimonial">
+        <span class="testimonial-quote">"</span>
+        <div class="stars">★★★★★</div>
+        <p>Chodím sem už 5 let a nikdy jsem neměla důvod změnit. Vždy mi vykouzlí přesně to, co jsem chtěla, často i lépe, než si umím představit.</p>
+        <div class="testimonial-author">
+          <span class="author-avatar">PM</span>
+          <div>
+            <strong>Petra M.</strong>
+            <span>Google recenze</span>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="testimonials-meta">
+      <div class="meta-stars">
+        <span class="big-rating">4.6</span>
+        <div>
+          <div class="rating-stars">★★★★★</div>
+          <div class="rating-count">177 recenzí na Google</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<section class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item"><span class="stat-num">15+</span><span class="stat-lbl">let zkušeností</span></div>
+      <div class="stat-item"><span class="stat-num">177</span><span class="stat-lbl">recenzí Google</span></div>
+      <div class="stat-item"><span class="stat-num">4.6</span><span class="stat-lbl">průměrné hodnocení</span></div>
+      <div class="stat-item"><span class="stat-num">5000+</span><span class="stat-lbl">spokojených klientek</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-head">
+          <span class="eyebrow">— Kontakt</span>
+          <h2 class="section-title">Najdete nás v <em>centru</em> Kladna</h2>
+        </div>
+        <div class="contact-list">
+          <div class="contact-item">
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M21 10 C 21 17 12 23 12 23 C 12 23 3 17 3 10 A 9 9 0 0 1 21 10 Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </span>
+            <div>
+              <strong>Adresa</strong>
+              <span>Suchardova 511, 272 01 Kladno</span>
+              <span class="ci-detail">OC Central Kladno, 2. patro</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M22 16.92 V 19.92 A 2 2 0 0 1 19.82 21.92 C 16.42 21.55 13.16 20.39 10.27 18.54 A 19.79 19.79 0 0 1 3.46 11.73 C 1.6 8.83 0.44 5.55 0.08 2.13 A 2 2 0 0 1 2.07 0 H 5.07 A 2 2 0 0 1 7.07 1.72 C 7.27 3.16 7.65 4.57 8.19 5.91 A 2 2 0 0 1 7.74 8.02 L 6.47 9.29 A 16 16 0 0 0 12.71 15.53 L 13.98 14.26 A 2 2 0 0 1 16.09 13.81 C 17.43 14.35 18.84 14.73 20.28 14.93 A 2 2 0 0 1 22 16.92 Z" transform="translate(0,1)"/>
+              </svg>
+            </span>
+            <div>
+              <strong>Telefon</strong>
+              <a href="tel:+420775352339">775 352 339</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="M22 6 L 12 13 L 2 6"/>
+              </svg>
+            </span>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:kadernictviexclusive@email.cz">kadernictviexclusive@email.cz</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6 L 12 12 L 16 14"/>
+              </svg>
+            </span>
+            <div>
+              <strong>Otevírací doba</strong>
+              <span>Pondělí – Pátek: 9:00 – 19:00</span>
+              <span>Sobota: 9:00 – 14:00</span>
+              <span>Neděle: zavřeno</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://www.facebook.com/profile.php?id=100063725283655" target="_blank" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 7h3V4h-3c-2 0-4 2-4 4v2H7v3h3v9h3v-9h3l1-3h-4V8c0-1 0-1 1-1z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/kadernictviexclusive" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="4"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="https://www.tiktok.com/@kadernictviexclusive" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.32 7.32 A 5.18 5.18 0 0 1 16.16 6 V 14.5 A 5.5 5.5 0 1 1 11.66 9 V 11.5 A 3 3 0 1 0 13.66 14.5 V 2 H 16.16 A 5.18 5.18 0 0 0 19.32 5.32 V 7.32 Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="contact-map">
+        <iframe src="https://maps.google.com/maps?q=Suchardova+511+Kladno&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">E</span>
+          <div>
+            <span class="logo-text">Exclusive</span>
+            <span class="logo-sub">Kadeřnictví Kladno</span>
+          </div>
+        </a>
+        <p>Prémiové kadeřnictví v centru Kladna. Tvoříme krásu a sebevědomí.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Stránky</h4>
+        <ul>
+          <li><a href="index.html#about">O nás</a></li>
+          <li><a href="index.html#services">Služby</a></li>
+          <li><a href="cenik.html">Ceník</a></li>
+          <li><a href="rezervace.html">Rezervace</a></li>
+          <li><a href="index.html#testimonials">Reference</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Suchardova 511, Kladno</li>
+          <li><a href="tel:+420775352339">775 352 339</a></li>
+          <li><a href="mailto:kadernictviexclusive@email.cz">kadernictviexclusive@email.cz</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Otevřeno</h4>
+        <ul>
+          <li>Po–Pá: 9:00 – 19:00</li>
+          <li>Sobota: 9:00 – 14:00</li>
+          <li>Neděle: zavřeno</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Kadeřnictví Exclusive Kladno • IČ: 86946072 • DIČ: CZ7053232780</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
